@@ -9,6 +9,8 @@ theme = 'PaperMod'
     ShowReadingTime = true
     ShowShareButtons = true
     ShowToc = true
+    # ... your other params ...
+    customCSS = ["css/extended.css"]
 
     [params.homeInfoParams]
         Title = "Welcome to Selenium Lab"
