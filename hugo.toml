@@ -1,0 +1,16 @@
+baseURL = 'https://seleniums.top/'
+languageCode = 'en-us'
+title = 'Selenium Lab'
+theme = 'PaperMod'
+
+[params]
+    env = "production"
+    description = "Tech blogging, Windows customization, and Cybersecurity insights."
+    author = "Kawsar"
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowToc = true
+
+[minify]
+    disableXML = false
+    minifyOutput = true
