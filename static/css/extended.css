@@ -1,35 +1,49 @@
-/* 1. Expand the container width and reduce side padding */
+/* 1. Main Container: Wide but stable */
 .main {
-    max-width: 1300px; /* Default is much smaller; this uses more screen space */
-    margin: 0 auto;
-    padding: 0 40px;   /* Reduces the massive gaps on left/right */
+    max-width: 1200px !important; /* Standard "Sweet Spot" for readability */
+    margin: 0 auto !important;
+    padding: 0 25px !important;
 }
 
-/* 2. Create the Grid for posts */
+/* 2. Grid Logic: Responsive and clean */
 @media screen and (min-width: 768px) {
-    /* Targets the container holding the post cards */
     .list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
-        gap: 25px; /* Space between the cards */
-        align-items: stretch;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important; /* 3 columns */
+        gap: 30px !important; /* More breathing room between posts */
     }
 
-    /* Keeps the 'Welcome' header full-width so it doesn't get squeezed into a column */
-    .first-entry, .page-header {
-        grid-column: 1 / -1; 
+    /* Keeps the Welcome message and headers full-width */
+    .first-entry, .page-header, .post-content {
+        grid-column: 1 / -1 !important;
     }
 }
 
-/* 3. Style the cards so they look consistent in a grid */
+/* 3. Card Styling: Makes them look like professional modules */
 .post-entry {
-    background: var(--entry);
-    border: 1px solid var(--border);
-    margin-bottom: 0 !important; /* Grid handles spacing via 'gap' */
+    background: var(--entry) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 12px !important; /* Rounded corners for a modern look */
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+    padding: 0 !important; /* Remove internal padding to let image flush to edges */
 }
 
-.post-entry .entry-header h2 {
-    font-size: 1.3rem; /* Shrink text slightly so titles fit in 3 columns */
+/* Hover effect to make it feel interactive */
+.post-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Ensure images inside cards look good */
+.entry-cover img {
+    border-radius: 0 !important; /* Image fills the top of the card */
+    margin-bottom: 15px !important;
+}
+
+/* Padding for the text inside the card */
+.entry-header, .entry-content, .entry-footer {
+    padding: 0 20px 15px 20px !important;
 }
