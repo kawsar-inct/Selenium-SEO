@@ -18,3 +18,6 @@ theme = 'PaperMod'
     [params.profile]
         name = "Kawsar"
         bio = "Cybersecurity student and tech enthusiast."
+
+[params.assets]
+    favicon = "/favicon.ico"
