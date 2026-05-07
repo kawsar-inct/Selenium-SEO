@@ -4,13 +4,17 @@ title = 'Selenium Lab'
 theme = 'PaperMod'
 
 [params]
-    env = "production"
-    description = "Tech blogging, Windows customization, and Cybersecurity insights."
-    author = "Kawsar"
+    env = 'production'
+    description = 'Tech blogging, Windows customization, and Cybersecurity insights.'
     ShowReadingTime = true
     ShowShareButtons = true
     ShowToc = true
 
-[minify]
-    disableXML = false
-    minifyOutput = true
+    [params.homeInfoParams]
+        Title = "Welcome to Selenium Lab"
+        Content = "Exploring High-End Hardware, Windows Customization, and Cybersecurity."
+
+    # We use a custom name here to avoid the "author" keyword conflict
+    [params.profile]
+        name = "Kawsar"
+        bio = "Cybersecurity student and tech enthusiast."
