@@ -22,10 +22,10 @@ theme = 'PaperMod'
         bio = "Cybersecurity student and tech enthusiast."
 
 [params.assets]
-    favicon = "/favicon.ico"
-    favicon16x16 = "/favicon.ico"
-    favicon32x32 = "/favicon.ico"
-    apple_touch_icon = "/favicon.ico"
+    favicon = "images/favicon.ico"
+    favicon16x16 = "images/favicon.ico"
+    favicon32x32 = "images/favicon.ico"
+    apple_touch_icon = "images/favicon.ico"
 
 [[menu.main]]
     name = "About"
