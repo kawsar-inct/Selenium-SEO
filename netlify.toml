@@ -3,7 +3,7 @@
   command = "hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.140.0"
+  HUGO_VERSION = "0.148.0" # Updated to meet PaperMod requirements
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
@@ -14,9 +14,3 @@
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "upgrade-insecure-requests"
     Referrer-Policy = "strict-origin-when-cross-origin"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
