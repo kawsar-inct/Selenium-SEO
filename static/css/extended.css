@@ -1,61 +1,60 @@
-/* 1. Main Container Stability */
+/* 1. Force the container to be wider */
 .main {
-    max-width: 1200px !important;
-    padding: 0 25px !important;
+    max-width: 1300px !important;
+    padding: 0 40px !important;
     margin: 0 auto !important;
 }
 
-/* 2. Responsive 3-Column Grid */
-@media screen and (min-width: 768px) {
+/* 2. Grid Optimization */
+@media screen and (min-width: 1000px) { /* Only triggers on larger screens */
     .list {
         display: grid !important;
         grid-template-columns: repeat(3, 1fr) !important;
-        gap: 25px !important;
-        row-gap: 40px !important; /* Space between rows */
+        gap: 35px !important;
+        row-gap: 50px !important;
     }
 
-    /* Fix title "squashing" */
-    .post-entry .entry-header h2 {
-        font-size: 1.1rem !important; /* Smaller titles so they don't break the card */
-        line-height: 1.4 !important;
-        margin-bottom: 10px !important;
-    }
-
-    /* Keep headers full width */
+    /* Keep the header full width and centered */
     .first-entry, .page-header {
         grid-column: 1 / -1 !important;
-        text-align: center; /* Centers the Welcome text */
-        margin-bottom: 40px !important;
+        text-align: left;
+        margin-bottom: 50px !important;
+        max-width: 800px; /* Keeps the welcome text readable */
     }
 }
 
-/* 3. High-End Card Design */
+/* 3. Card Stability (The "Vulnerable" Fix) */
 .post-entry {
     background: var(--entry) !important;
     border: 1px solid var(--border) !important;
-    border-radius: 15px !important;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    padding: 0 !important;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important; /* Forces all cards in a row to be same height */
+    overflow: hidden !important;
 }
 
-.post-entry:hover {
-    transform: translateY(-8px) !important;
-    box-shadow: 0 12px 24px rgba(0,0,0,0.2) !important;
-    border-color: var(--secondary) !important;
+/* Fix Title Font Size for 3-Column layout */
+.post-entry .entry-header h2 {
+    font-size: 1.2rem !important;
+    line-height: 1.3 !important;
+    font-weight: 700 !important;
+    padding-top: 10px;
 }
 
-/* Cover Image Refinement */
+/* Image scaling */
 .entry-cover img {
-    border-radius: 0 !important;
-    height: 180px !important; /* Keeps all cards the same height */
+    width: 100% !important;
+    height: 200px !important; /* Uniform height for all images */
     object-fit: cover !important;
 }
 
-/* Text Padding */
-.entry-header, .entry-content, .entry-footer {
-    padding: 15px 20px !important;
+/* Summary text - Hide it or shrink it to keep things tidy */
+.entry-content {
+    font-size: 0.9rem !important;
+    color: var(--secondary);
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Shows only 2 lines of description */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
