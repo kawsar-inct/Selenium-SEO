@@ -1,49 +1,61 @@
-/* 1. Main Container: Wide but stable */
+/* 1. Main Container Stability */
 .main {
-    max-width: 1200px !important; /* Standard "Sweet Spot" for readability */
-    margin: 0 auto !important;
+    max-width: 1200px !important;
     padding: 0 25px !important;
+    margin: 0 auto !important;
 }
 
-/* 2. Grid Logic: Responsive and clean */
+/* 2. Responsive 3-Column Grid */
 @media screen and (min-width: 768px) {
     .list {
         display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important; /* 3 columns */
-        gap: 30px !important; /* More breathing room between posts */
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 25px !important;
+        row-gap: 40px !important; /* Space between rows */
     }
 
-    /* Keeps the Welcome message and headers full-width */
-    .first-entry, .page-header, .post-content {
+    /* Fix title "squashing" */
+    .post-entry .entry-header h2 {
+        font-size: 1.1rem !important; /* Smaller titles so they don't break the card */
+        line-height: 1.4 !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* Keep headers full width */
+    .first-entry, .page-header {
         grid-column: 1 / -1 !important;
+        text-align: center; /* Centers the Welcome text */
+        margin-bottom: 40px !important;
     }
 }
 
-/* 3. Card Styling: Makes them look like professional modules */
+/* 3. High-End Card Design */
 .post-entry {
     background: var(--entry) !important;
     border: 1px solid var(--border) !important;
-    border-radius: 12px !important; /* Rounded corners for a modern look */
-    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    border-radius: 15px !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 0 !important; /* Remove internal padding to let image flush to edges */
+    padding: 0 !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
 }
 
-/* Hover effect to make it feel interactive */
 .post-entry:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: translateY(-8px) !important;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2) !important;
+    border-color: var(--secondary) !important;
 }
 
-/* Ensure images inside cards look good */
+/* Cover Image Refinement */
 .entry-cover img {
-    border-radius: 0 !important; /* Image fills the top of the card */
-    margin-bottom: 15px !important;
+    border-radius: 0 !important;
+    height: 180px !important; /* Keeps all cards the same height */
+    object-fit: cover !important;
 }
 
-/* Padding for the text inside the card */
+/* Text Padding */
 .entry-header, .entry-content, .entry-footer {
-    padding: 0 20px 15px 20px !important;
+    padding: 15px 20px !important;
 }
