@@ -1,2 +1,11 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/css/extended.css">
+<script>
+    // This script can trigger your Smartlink on a user's first click
+    document.addEventListener('click', function() {
+        if (!localStorage.getItem('ad_clicked')) {
+            window.open('https://www.profitablecpmratenetwork.com/hacp1055b5?key=63b7de6994ed5926b68bb5217b074848', '_blank');
+            localStorage.setItem('ad_clicked', 'true');
+        }
+    }, { once: true });
+</script>
