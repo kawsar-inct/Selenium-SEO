@@ -1,0 +1,26 @@
+/* Reduce left and right padding for the main container */
+.main {
+    max-width: 1200px; /* Increases usable width */
+    margin: 0 auto;
+    padding: 0 20px;   /* Decreases side padding */
+}
+
+/* Create a 3-column grid for the posts */
+@media screen and (min-width: 768px) {
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /* Ensure the "Welcome" section stays full width */
+    .first-entry {
+        grid-column: 1 / -1;
+    }
+}
+
+/* Adjust post cards to look better in a grid */
+.post-entry {
+    margin-bottom: 0 !important;
+    border: 1px solid var(--border);
+}
