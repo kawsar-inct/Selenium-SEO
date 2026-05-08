@@ -7,7 +7,7 @@ categories: ["Space"]
 draft: false
 showToc: true
 cover:
-    image: "/images/top8space/c.jpg"
+    image: "/images/c.jpg"
     alt: "Beautiful colorful planet in space"
     caption: "A stunning colorful planet captured in deep space."
     relative: true
@@ -18,7 +18,7 @@ Space photography captures the endless beauty of the universe. From colorful gal
 These incredible cosmic scenes inspire curiosity, scientific discovery, and imagination about the universe beyond Earth.
 
 ## 1. Colorful Galaxy Formation
-![Colorful Galaxy Formation](/images/top8space/a.jpg)
+![Colorful Galaxy Formation](/images/a.jpg)
 
 A vibrant deep-space galaxy filled with glowing cosmic gases and bright stars. The colorful nebula-like atmosphere creates a breathtaking astronomical view.
 
@@ -31,49 +31,49 @@ A vibrant deep-space galaxy filled with glowing cosmic gases and bright stars. T
 ---
 
 ## 2. Cosmic Energy Network
-![Cosmic Energy Network](/images/top8space/b.jpg)
+![Cosmic Energy Network](/images/b.jpg)
 
 A futuristic cosmic scene representing interconnected stars, galaxies, and universal energy patterns across deep space.
 
 ---
 
 ## 3. Planet Mars Horizon
-![Planet Mars Horizon](/images/top8space/c.jpg)
+![Planet Mars Horizon](/images/c.jpg)
 
 A dramatic planetary landscape inspired by Mars, showing the beauty of a distant world illuminated by cosmic light.
 
 ---
 
 ## 4. Milky Way Night Sky
-![Milky Way Night Sky](/images/top8space/d.jpg)
+![Milky Way Night Sky](/images/d.jpg)
 
 A spectacular view of the Milky Way galaxy stretching across the night sky with millions of visible stars.
 
 ---
 
 ## 5. Glowing Cosmic Crystal
-![Glowing Cosmic Crystal](/images/top8space/e.jpg)
+![Glowing Cosmic Crystal](/images/e.jpg)
 
 A mysterious glowing object floating in space surrounded by colorful cosmic lighting and deep-space effects.
 
 ---
 
 ## 6. Deep Space Nebula
-![Deep Space Nebula](/images/top8space/f.jpg)
+![Deep Space Nebula](/images/f.jpg)
 
 A beautiful nebula cloud formation filled with interstellar gases, vibrant colors, and distant stars.
 
 ---
 
 ## 7. Supernova Galaxy Explosion
-![Supernova Galaxy Explosion](/images/top8space/g.jpg)
+![Supernova Galaxy Explosion](/images/g.jpg)
 
 An intense cosmic explosion lighting up surrounding galaxies with fiery red and golden energy.
 
 ---
 
 ## 8. Cosmic Horizon and Stars
-![Cosmic Horizon and Stars](/images/top8space/h.jpg)
+![Cosmic Horizon and Stars](/images/h.jpg)
 
 A breathtaking cosmic horizon filled with glowing starlight, colorful space clouds, and deep universal beauty.
 
