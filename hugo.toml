@@ -14,7 +14,7 @@ theme = 'PaperMod'
 
     [params.homeInfoParams]
         Title = "Welcome to Selenium Lab"
-        Content = "Exploring High-End Hardware, Windows Customization, and Cybersecurity."
+        Content = "Exploring High-quality beautiful wallpaper in 4K"
 
     # We use a custom name here to avoid the "author" keyword conflict
     [params.profile]
