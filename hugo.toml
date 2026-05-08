@@ -2,7 +2,9 @@ baseURL = 'https://seleniums.top/'
 languageCode = 'en-us'
 title = 'Selenium Lab'
 theme = 'PaperMod'
+
 enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
     env = 'production'
