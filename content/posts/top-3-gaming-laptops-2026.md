@@ -48,14 +48,14 @@ Forests are home to countless plants and animals. Walking through a forest path 
 
 
 ## Summary: Which one should you choose?
--- **Mountains for adventure and breathtaking views**
--- **Beaches for relaxation and peaceful sunsets**
--- **Forests for calmness and fresh natural air**
--- **Waterfalls and rivers for soothing natural sounds**
--- **Lakes for quiet reflection and scenic beauty**
--- **Flower gardens for colorful and vibrant photography**
--- **Snowy landscapes for a cool and magical atmosphere**
--- **Nature destinations based on your mood and travel style**
+- **Mountains for adventure and breathtaking views**
+- **Beaches for relaxation and peaceful sunsets**
+- **Forests for calmness and fresh natural air**
+- **Waterfalls and rivers for soothing natural sounds**
+- **Lakes for quiet reflection and scenic beauty**
+- **Flower gardens for colorful and vibrant photography**
+- **Snowy landscapes for a cool and magical atmosphere**
+- **Nature destinations based on your mood and travel style**
 
 Natural scenery reminds us of the beauty and peace that exist beyond our daily routines. Whether it is the calmness of a forest, the power of a waterfall, or the serenity of a sunset, nature has the ability to inspire and heal. Taking time to appreciate and protect these landscapes is one of the best ways to stay connected with the world around us.
 ---
