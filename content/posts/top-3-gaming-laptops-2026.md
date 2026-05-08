@@ -17,7 +17,7 @@ Forests are home to countless plants and animals. Walking through a forest path 
 
 ## 1. Scenery 1
 
-https://seleniums.top/images/1.jpg
+![Scenery 1](https://seleniums.top/images/1.jpg)
 
 **Key Features:**
 - Breathtaking landscapes and destinations
