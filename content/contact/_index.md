@@ -13,7 +13,7 @@ Our goal is to build a peaceful space where people can enjoy natural scenery, di
 
 We usually respond as quickly as possible, and every message is read with care.
 
-- **Email:** kawsar.inct@gmail.com 
-- **Facebook:** [Kawsar  ](https://web.facebook.com/kawsar.inc)
+- **Email:** 
+- **Facebook:** 
 
 We usually reply within 24–48 hours.
